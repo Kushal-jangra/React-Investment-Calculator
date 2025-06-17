@@ -13,7 +13,7 @@ export default function UserInput({onChange , userInput}){
           <p>
             <label htmlFor="annualInterest">Annual Interest (%)</label>
             <input type="number" required value = {userInput.annualInvestment} 
-            onChange={(event) => onChange('annualInterest', event.target.value)}/>
+            onChange={(event) => onChange('annualInvestment', event.target.value)}/>
           </p>
         </div>
         <div className="input-group">
